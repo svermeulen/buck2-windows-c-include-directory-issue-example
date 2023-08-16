@@ -1,0 +1,10 @@
+
+prebuilt_cxx_library(
+    name = "luajit-lib",
+    exported_headers = glob(["*.h"]),
+    shared_lib = "lua51.dll",
+    import_lib = "lua51.lib",
+    header_namespace = "",
+    visibility = ["PUBLIC"],
+)
+

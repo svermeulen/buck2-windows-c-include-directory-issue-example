@@ -1,0 +1,5 @@
+/buck-out
+/build
+.venv
+*.pyc
+__pycache__

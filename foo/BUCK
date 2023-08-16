@@ -1,0 +1,8 @@
+
+cxx_library(
+    name = "foo",
+    srcs = glob(["**/*.c"]),
+    visibility = ["PUBLIC"],
+    deps = ["//third-party/luajit:luajit-lib"],
+)
+
